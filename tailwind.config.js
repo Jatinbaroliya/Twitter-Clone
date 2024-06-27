@@ -4,15 +4,12 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
-}
-
-module.exports = {
   theme: {
     extend: {
       screens: {
         'md*': {'max': '768px'}, // Custom breakpoint for less than sm
-        'esm':{'min':'495px'}
+        'esm':{'min':'495px'},
+        'ud':{'min':'666px'}
       },
     },
   },
@@ -23,3 +20,4 @@ module.exports = {
   },
   plugins: [],
 }
+
